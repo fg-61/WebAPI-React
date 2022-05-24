@@ -1,0 +1,17 @@
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.Business.deps.json
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.Business.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\ref\CategoryProduct.Business.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.Business.pdb
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.DataAccess.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.Entities.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.DataAccess.pdb
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\bin\Debug\net5.0\CategoryProduct.Entities.pdb
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.AssemblyInfoInputs.cache
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.AssemblyInfo.cs
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.csproj.CopyComplete
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\ref\CategoryProduct.Business.dll
+C:\Users\fatih\Desktop\WebAPI-React\WebAPI-React\CategoryProduct\CategoryProduct.Business\obj\Debug\net5.0\CategoryProduct.Business.pdb

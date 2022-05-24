@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryProduct.DataAccess"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryProduct.Business", "CategoryProduct.Business\CategoryProduct.Business.csproj", "{4E9E7B5D-BC05-4E29-A1B9-3628A745AB6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryProduct.API", "CategoryProduct.API\CategoryProduct.API.csproj", "{36D368B8-C2FA-497A-9912-6902107466A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E9E7B5D-BC05-4E29-A1B9-3628A745AB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E9E7B5D-BC05-4E29-A1B9-3628A745AB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E9E7B5D-BC05-4E29-A1B9-3628A745AB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D368B8-C2FA-497A-9912-6902107466A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D368B8-C2FA-497A-9912-6902107466A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D368B8-C2FA-497A-9912-6902107466A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D368B8-C2FA-497A-9912-6902107466A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
