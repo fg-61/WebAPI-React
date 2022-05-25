@@ -1,6 +1,8 @@
 ﻿using CategoryProduct.Business.Abstracts;
 using CategoryProduct.DataAccess;
 using CategoryProduct.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace CategoryProduct.Business.Concretes
 {
@@ -10,5 +12,11 @@ namespace CategoryProduct.Business.Concretes
         {
 
         }
+
+        public IQueryable<Product> GetProductsWithCategory()
+        {
+            return Table.Include(x => x.Category);
+        }
+
     }
 }

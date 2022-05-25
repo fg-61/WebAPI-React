@@ -11,6 +11,6 @@ namespace CategoryProduct.Entities
 
         [Required, StringLength(100)]
         public string Description { get; set; }
-        public virtual List<Product> Products { get; set; }
+        public virtual List<Product> Products {  get; set;}
     }
 }

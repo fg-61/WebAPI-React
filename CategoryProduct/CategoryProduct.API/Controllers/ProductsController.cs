@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CategoryProduct.DataAccess;
 using CategoryProduct.Entities;
 using CategoryProduct.Business.Concretes;
+using CategoryProduct.Entities.DTOs;
 
 namespace CategoryProduct.API.Controllers
 {
@@ -26,8 +27,21 @@ namespace CategoryProduct.API.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            List<Product> products = _productRepo.Get().ToList();
-            return Ok(products);
+            List<Product> products = _productRepo.GetProductsWithCategory().ToList();
+            List<ProductDto> productDtos = new List<ProductDto>();
+            foreach (var item in products)
+            {
+                productDtos.Add(new ProductDto
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    CategoryId = item.CategoryId,
+                    CategoryName = item.Category.Name,
+                    Price = item.Price
+                });
+            }
+            return Ok(productDtos);
         }
 
         // GET: api/Products/5

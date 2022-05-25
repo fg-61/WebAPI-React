@@ -1,5 +1,6 @@
 ﻿using CategoryProduct.Business.Concretes;
 using CategoryProduct.Entities;
+using CategoryProduct.Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -22,8 +23,20 @@ namespace CategoryProduct.API.Controllers
         [HttpGet]
         public IActionResult GetCategories()
         {
-            List<Category> categories = _categoryRepo.Get().ToList();
-            return Ok(categories);
+            List<Category> categories = _categoryRepo.Get().Include(x => x.Products).ToList();
+
+            List<CategoryDto> categoryDtos = new List<CategoryDto>();
+            foreach (var item in categories)
+            {
+                categoryDtos.Add(new CategoryDto
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    CategoryNumber = item.Products.Count
+                });
+            }
+            return Ok(categoryDtos);
         }
 
         // GET: api/Categories/5
@@ -42,7 +55,7 @@ namespace CategoryProduct.API.Controllers
 
         // PUT: api/Categories/5
         [HttpPut("{id}")]
-        public IActionResult PutCategory(int id, Category category)
+        public IActionResult PutCategory(int id,Category category)
         {
             if (id != category.Id)
             {

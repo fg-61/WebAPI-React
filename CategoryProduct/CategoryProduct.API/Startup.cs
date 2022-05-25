@@ -25,10 +25,16 @@ namespace CategoryProduct.API
             {
                 options.UseSqlServer(Configuration.GetConnectionString("SqlConnection"));
             });
+            services.AddCors();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(options =>
+                options.WithOrigins("http://localhost:3000")
+                .AllowAnyHeader()
+                .AllowAnyMethod());
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
